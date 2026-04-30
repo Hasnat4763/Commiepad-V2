@@ -1,0 +1,13 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.16
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.1 with 4.2.2 msw (phoenix) wxWidgets 3.3.2
+INFO: kbplacer_dialog.py:695: Language: en
+DEBUG: kle_serial.py:1076: Could not load explicit spacing from layout: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\Adiptoo\\Downloads\\plate-2026-04-23T17_02_43.255Z.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+WARNING: key_placer.py:136: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:143: Switches by nets: {}
+DEBUG: key_placer.py:147: Diodes by switch: {'SW1': ['D17', 'D7', 'D12', 'D10', 'D11', 'D13', 'D14', 'D16', 'D15', 'D18'], 'SW3': ['D2'], 'SW9': ['D9'], 'SW8': ['D8'], 'SW2': ['D1'], 'SW4': ['D3'], 'SW5': ['D6'], 'SW6': ['D5'], 'SW7': ['D4']}
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in W:/Commiepad V2/Commiepad V2.kicad_pcb
+INFO: key_placer.py:624: Looking for connection template between SW1 and other elements
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (57825000, 139595000)
+INFO: key_placer.py:668: Got connection template: 
