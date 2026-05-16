@@ -1,6 +1,7 @@
 import board
 import busio
 import usb_cdc
+from serialcommand import SerialCommand
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
@@ -26,8 +27,6 @@ driver = SSD1306(i2c=i2c_bus,
 keyboard.col_pins = (board.D6, board.D9, board.D3)
 keyboard.row_pins = (board.D7, board.D8, board.D2)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
-
-OLED_BUFFER_TEXT = "Hello, World!"
 
 keyboard.keymap = [
     [KC.A, KC.B, KC.C],
@@ -55,20 +54,9 @@ display = Display(
 
 display.entries = [
     TextEntry(
-        text=OLED_BUFFER_TEXT, x = 0, y = 0
+        text="Hello, World!", x = 0, y = 0
     )
 ]
-
-def OLED_TEXT_FETCH():
-    global OLED_BUFFER_TEXT
-    if usb_cdc.data.connected:
-        try:
-            data = usb_cdc.data.readline().decode('utf-8').strip()
-            if data:
-                OLED_BUFFER_TEXT = data
-                display.entries[0].text = OLED_BUFFER_TEXT
-        except Exception as e:
-            pass
 
 rgb = RGB(pixel_pin=board.D10,
           num_pixels=8,
@@ -88,8 +76,8 @@ rgb = RGB(pixel_pin=board.D10,
           refresh_rate=60
           )
 
-keyboard.before_matrix_scan = OLED_TEXT_FETCH
-
+serial_command =  SerialCommand(keyboard=keyboard, RGB=rgb, OLED=display)
+keyboard.extensions.append(serial_command)
 keyboard.extensions.append(rgb)
 keyboard.extensions.append(display)
 
