@@ -52,7 +52,7 @@ For the parts, aliexpress works. But then you can also get them from your local 
 
 # Flashing the firmware
 
-First, follow the ![KMK starter guide](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) to flash KMK on your microcontroller, My repository already has the KMK files necessary with all the extra libraries for the SSD1306 OLED, so you can follow the KMK starter guide but remember to copy the files from this repository instead of the KMK one. Remember to copy the [serialcommand.py]("Commiepad V2 Firmware KMK/serialcommand.py") else you won't be able to use the desktop app to control the RGB underglow.
+First, follow the [KMK starter guide](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) to flash KMK on your microcontroller, My repository already has the KMK files necessary with all the extra libraries for the SSD1306 OLED, so you can follow the KMK starter guide but remember to copy the files from this repository instead of the KMK one. Remember to copy the [serialcommand.py](https://github.com/Hasnat4763/Commiepad-V2/blob/c52ac5da764008b54e5d9a0160083da586aadd7f/Commiepad%20V2%20Firmware%20KMK/serialcommand.py) else you won't be able to use the desktop app to control the RGB underglow.
 
 # Using the desktop app
 
