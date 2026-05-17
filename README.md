@@ -1,7 +1,7 @@
 # Commiepad V2
 
 A fully custom designed macro pad.
-It is a sequel to my 1st macropad design [Link](https://github.com/Hasnat4763/CommiePad). The 1st one was not working fully as I had made some mistakes in the PCB by not using a matrix and combining OLED SDA with neopixel data line. So I fixed that mistake in this one. 
+It is a sequel to my 1st macropad design [Commiepad](https://github.com/Hasnat4763/CommiePad). The 1st one was not working fully as I had made some mistakes in the PCB by not using a matrix and combining OLED SDA with neopixel data line. So I fixed that mistake in this one. 
 
 
 ## Parts used:  
@@ -52,7 +52,7 @@ For the parts, aliexpress works. But then you can also get them from your local 
 
 # Flashing the firmware
 
-First, follow the ![KMK starter guide](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) to flash KMK on your microcontroller, My repository already has the KMK files necessary with all the extra libraries for the SSD1306 OLED, so you can follow the KMK starter guide but remember to copy the files from this repository instead of the KMK one. Remember to copy the ![serialcommand.py](Commiepad V2 Firmware KMK/serialcommand.py) else you won't be able to use the desktop app to control the RGB underglow.
+First, follow the ![KMK starter guide](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) to flash KMK on your microcontroller, My repository already has the KMK files necessary with all the extra libraries for the SSD1306 OLED, so you can follow the KMK starter guide but remember to copy the files from this repository instead of the KMK one. Remember to copy the [serialcommand.py]("Commiepad V2 Firmware KMK/serialcommand.py") else you won't be able to use the desktop app to control the RGB underglow.
 
 # Using the desktop app
 
