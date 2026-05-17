@@ -15,7 +15,7 @@ A fully custom designed macro pad.
 
 ![Schematic](schema.png)
 ![PCB](pcb.png)
-![PCB Rendered](pcb-render.png)
+![PCB Rendered](pcb_render.png)
 
 # CAD
 
