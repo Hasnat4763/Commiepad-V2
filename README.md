@@ -1,6 +1,8 @@
 # Commiepad V2
 
 A fully custom designed macro pad.
+It is a sequel to my 1st macropad design [Link](https://github.com/Hasnat4763/CommiePad). The 1st one was not working fully as I had made some mistakes in the PCB by not using a matrix and combining OLED SDA with neopixel data line. So I fixed that mistake in this one. 
+
 
 ## Parts used:  
 - SEEED XIAO RP 2040 with custom KMK firmware 
@@ -30,9 +32,40 @@ A fully custom designed macro pad.
 
 # BOM (Work in progress)
 
-| Name  	            | Quantity   	    | Price  	| Source  	|   	|
+| Item                                             | Quantity | Price          | Link |
+|--------------------------------------------------|----------|----------------|------|
+| SEEED XIAO RP2040 (THT)                          | 1        | $4.84          | [Link](https://www.aliexpress.com/item/1005003275643720.html) |
+| Outemu Silent Peach V3 Switch                              | 10      | $6.09          | [Link](https://www.aliexpress.com/item/1005006905361113.html) |
+| SK6812-MINI-E (RGB LEDs)                         | 20      | $5.26         | [Link](https://www.aliexpress.com/item/1005005193716172.html) |
+| 1N4148 Diode                                     | 100      | $1.20          | [Link](https://www.aliexpress.com/item/4000142272546.html) |
+| SSD1306 OLED Display                             | 1        | $5.15           | [Link](https://www.aliexpress.com/item/1005008640132638.html) |
+| YMDK Blank DSA 1u Keycap                         | 10       | $6.43          | [Link](https://www.aliexpress.com/item/32842379355.html) |
+| EC 11 Encoder with Push Button Half Handle 20MM Shaft | 5 | $6.31 | [Link](https://www.aliexpress.com/item/1005005983134515.html) |
+| Top Case                                         | 1        | Printing Legion |  |
+| Bottom Case                                      | 1        | Printing Legion |  |
+| PCB | 5 | $2 | JLCPCB |
 
-|SEEED XIAO RP2040	    | 1  	            | 4.84$	    |[\[Aliexpress\]()](https://www.aliexpress.com/item/1005003275643720.html?spm=a2g0o.productlist.main.1.6c79cnCBcnCBmD&algo_pvid=965580c8-c959-4357-9a59-2691b567242c&pdp_ext_f=%7B%22order%22%3A%2225%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005003275643720%7C_p_origin_prod%3A)	    |---	|
-|   	    |   	            |   	    |   	    |   	|
-|   	    |   	            |   	    |   	    |   	|
-|   	    |   	            |   	    |   	    |   	|
+# Instructions
+
+To print the PCB, use any PCB fabricators you can find for cheap, for most people it's JLCPCB. But then you also have to check the shipping cost and customs of your country.
+For the parts, aliexpress works. But then you can also get them from your local suppliers too.
+
+# Flashing the firmware
+
+First, follow the ![KMK starter guide](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) to flash KMK on your microcontroller, My repository already has the KMK files necessary with all the extra libraries for the SSD1306 OLED, so you can follow the KMK starter guide but remember to copy the files from this repository instead of the KMK one. Remember to copy the ![serialcommand.py](Commiepad V2 Firmware KMK/serialcommand.py) else you won't be able to use the desktop app to control the RGB underglow.
+
+# Using the desktop app
+
+the desktop app looks like this 
+
+![desktop_app](app.png)
+
+After launching the app, select the COM port your Macropad is connected to, and select the baud rate (Most popular option is 115200), after that click the button called "Start Connection". After successful connection, the debug area will show a message about it. Then you can start controlling the RGB and also put text on the OLED from it.
+
+Features of this app:
+- Can turn underglow on/off
+- Set custom color to it
+- Set RGB mode to KMK presets
+- Set any text to the OLED
+
+I may add some more features to it later. For now these should work (They haven't been tested yet).
