@@ -1,5 +1,0 @@
-[project]
-name = "PySide QtQuick Project"
-
-[tool.pyside6-project]
-files = ["main.py", "Commiepad_UI/Main.qml", "Commiepad_UI/qmldir"]
