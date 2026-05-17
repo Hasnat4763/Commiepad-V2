@@ -15,20 +15,36 @@ It is a sequel to my 1st macropad design [Commiepad](https://github.com/Hasnat47
 
 # PCB
 
-![Schematic](schema.png)
-![PCB](pcb.png)
-![PCB Rendered](pcb_render.png)
+Schematic
+
+![Schematic](images/schema.png)
+
+PCB
+
+![PCB](images/pcb.png)
+
+PCB Rendered
+
+![PCB Rendered](images/pcb_render.png)
 
 # CAD
 
-![CAD Fully Assembled](<CAD_assembled.png>)
-![CAD Bottom](cad_bottom.png)
-![CAD Top](cad_top.png)
+Full Board Assembled
+
+![CAD Fully Assembled](images/CAD_assembled.png)
+
+Bottom Part
+
+![CAD Bottom](images/cad_bottom.png)
+
+Top Cover
+
+![CAD Top](images/cad_top.png)
 
 
 # Zine Poster
 
-![Zine Poster](Zine_Poster.png)
+![Zine Poster](images/Zine_Poster.png)
 
 # BOM
 
@@ -58,7 +74,7 @@ First, follow the [KMK starter guide](https://github.com/KMKfw/kmk_firmware/blob
 
 the desktop app looks like this 
 
-![desktop_app](app.png)
+![desktop_app](images/app.png)
 
 After launching the app, select the COM port your Macropad is connected to, and select the baud rate (Most popular option is 115200), after that click the button called "Start Connection". After successful connection, the debug area will show a message about it. Then you can start controlling the RGB and also put text on the OLED from it.
 
