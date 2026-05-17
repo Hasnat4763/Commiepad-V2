@@ -1,11 +1,11 @@
 Item,Quantity,Price,Link
-"SEEED XIAO RP2040 (THT)",1,"$7.25","Link"
-"Outemu Silent Peach V3 Switch",10,"$6.09","Link"
-"SK6812-MINI-E (RGB LEDs)",20,"$5.26","Link"
-"1N4148 Diode",100,"$1.20","Link"
-"SSD1306 OLED Display",1,"$5.15","Link"
-"YMDK Blank DSA 1u Keycap",10,"$6.43","Link"
-"EC 11 Encoder with Push Button Half Handle 20MM Shaft",5,"$6.31","Link"
-"Top Case",1,"Printing Legion",""
-"Bottom Case",1,"Printing Legion",""
-"PCB",5,"$11.02","JLCPCB"
+SEEED XIAO RP2040 (THT),1,$7.25,https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
+Outemu Silent Peach V3 Switch,10,$6.09,https://www.aliexpress.com/item/1005006905361113.html
+SK6812-MINI-E (RGB LEDs),20,$5.26,https://www.aliexpress.com/item/1005005193716172.html
+1N4148 Diode,100,$1.20,https://www.aliexpress.com/item/4000142272546.html
+SSD1306 OLED Display,1,$5.15,https://www.aliexpress.com/item/1005008640132638.html
+YMDK Blank DSA 1u Keycap,10,$6.43,https://www.aliexpress.com/item/32842379355.html
+EC 11 Encoder with Push Button Half Handle 20MM Shaft,5,$6.31,https://www.aliexpress.com/item/1005005983134515.html
+Top Case,1,Printing Legion,
+Bottom Case,1,Printing Legion,
+PCB,5,$11.02,JLCPCB
