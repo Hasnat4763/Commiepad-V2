@@ -3738,7 +3738,7 @@
 			(uuid "bf30a441-f842-4533-a894-606e8d0d6894")
 		)
 		(embedded_fonts no)
-		(model "W:/Commiepad V2 Footprints/Seeed Studio XIAO RP2040 v26.step"
+		(model "C:/Users/Adiptoo/Downloads/seeed-studio-xiao-rp2040-3d-model/Seeed Studio XIAO RP2040 v26.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11692,7 +11692,7 @@
 		)
 		(polygon
 			(pts
-				(xy 112.685418 37.832919) (xy 212.23 36.97) (xy 213.46 109.5) (xy 106.554294 108.630417)
+				(xy 123.83 40.75) (xy 209.79 40.98) (xy 209.592978 106.66039) (xy 122.902143 106.400343)
 			)
 		)
 		(filled_polygon
@@ -13443,7 +13443,7 @@
 		)
 		(polygon
 			(pts
-				(xy 118.79 37.78) (xy 212.23 36.97) (xy 213.46 109.5) (xy 112.65 108.68)
+				(xy 123.47 40.51) (xy 209.91 40.75) (xy 209.284555 106.772933) (xy 123.47 105.96)
 			)
 		)
 		(filled_polygon
