@@ -61,9 +61,11 @@ Top Cover
 | Bottom Case                                      | 1        | Printing Legion |  |
 | PCB | 5 | $11.02 | JLCPCB |
 
-# Instructions
+## Build and Use
 
-To print the PCB, use any PCB fabricators you can find for cheap, for most people it's JLCPCB. But then you also have to check the shipping cost and customs of your country.
+# Where to get the PCB
+
+To fabricate the PCB, use any PCB fabricators you can find for cheap, for most people it's JLCPCB. But then you also have to check the shipping cost and customs of your country.
 For the parts, aliexpress works. But then you can also get them from your local suppliers too.
 
 # Flashing the firmware
@@ -75,6 +77,24 @@ First, follow the [KMK starter guide](https://github.com/KMKfw/kmk_firmware/blob
 the desktop app looks like this 
 
 ![desktop_app](images/app.png)
+
+I have included a build for windows [here](Software/CommiepadV2.exe)
+
+To build for Mac/Linux:
+
+```
+# 1. Create virtual environment
+python3 -m venv commiepad_env
+source commiepad_env/bin/activate
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Build executable
+pyinstaller --onefile --windowed --add-data "main.ui:." --add-data "bg.png:." --hidden-import=PyQt6.QtCore --hidden-import=PyQt6.QtGui --hidden-import=PyQt6.QtWidgets --hidden-import=PyQt6.uic --name CommiepadV2 main.py
+
+```
+
 
 After launching the app, select the COM port your Macropad is connected to, and select the baud rate (Most popular option is 115200), after that click the button called "Start Connection". After successful connection, the debug area will show a message about it. Then you can start controlling the RGB and also put text on the OLED from it.
 
