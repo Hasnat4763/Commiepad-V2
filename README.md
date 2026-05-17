@@ -30,11 +30,11 @@ It is a sequel to my 1st macropad design [Commiepad](https://github.com/Hasnat47
 
 ![Zine Poster](Zine_Poster.png)
 
-# BOM (Work in progress)
+# BOM
 
 | Item                                             | Quantity | Price          | Link |
 |--------------------------------------------------|----------|----------------|------|
-| SEEED XIAO RP2040 (THT)                          | 1        | $4.84          | [Link](https://www.aliexpress.com/item/1005003275643720.html) |
+| SEEED XIAO RP2040 (THT)                          | 1        | $$7.25          | [Link](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) |
 | Outemu Silent Peach V3 Switch                              | 10      | $6.09          | [Link](https://www.aliexpress.com/item/1005006905361113.html) |
 | SK6812-MINI-E (RGB LEDs)                         | 20      | $5.26         | [Link](https://www.aliexpress.com/item/1005005193716172.html) |
 | 1N4148 Diode                                     | 100      | $1.20          | [Link](https://www.aliexpress.com/item/4000142272546.html) |
@@ -43,7 +43,7 @@ It is a sequel to my 1st macropad design [Commiepad](https://github.com/Hasnat47
 | EC 11 Encoder with Push Button Half Handle 20MM Shaft | 5 | $6.31 | [Link](https://www.aliexpress.com/item/1005005983134515.html) |
 | Top Case                                         | 1        | Printing Legion |  |
 | Bottom Case                                      | 1        | Printing Legion |  |
-| PCB | 5 | $2 | JLCPCB |
+| PCB | 5 | $11.02 | JLCPCB |
 
 # Instructions
 
