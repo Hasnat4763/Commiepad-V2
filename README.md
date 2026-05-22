@@ -57,6 +57,8 @@ Top Cover
 | SSD1306 OLED Display                             | 1        | $5.15           | [Link](https://www.aliexpress.com/item/1005008640132638.html) |
 | YMDK Blank DSA 1u Keycap                         | 10       | $6.43          | [Link](https://www.aliexpress.com/item/32842379355.html) |
 | EC 11 Encoder with Push Button Half Handle 20MM Shaft | 5 | $6.31 | [Link](https://www.aliexpress.com/item/1005005983134515.html) |
+| M3 Heat Set Inserts | 30 | $6.13 | [Link](https://www.aliexpress.com/item/1005006071488810.html) |
+| M3 Fasteners | 50 | $6.28 | [Link](https://www.aliexpress.com/item/1005011845940916.html) |
 | Top Case                                         | 1        | Printing Legion |  |
 | Bottom Case                                      | 1        | Printing Legion |  |
 | PCB | 5 | $11.02 | JLCPCB |
