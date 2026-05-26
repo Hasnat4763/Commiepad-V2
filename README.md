@@ -3,6 +3,10 @@
 A fully custom designed macro pad.
 It is a sequel to my 1st macropad design [Commiepad](https://github.com/Hasnat4763/CommiePad). The 1st one was not working fully as I had made some mistakes in the PCB by not using a matrix and combining OLED SDA with neopixel data line. So I fixed that mistake in this one. It can be used for running macros which can help people like programmers and designers to run commands they need to run a lot just by clicking one key instead of multiple.
 
+# Motivation
+
+As my 1st hackpad design didn't work, and I had some free time, I thought of designing a new hackpad.
+
 
 ## Parts used:  
 - SEEED XIAO RP 2040 with custom KMK firmware 
